@@ -1,4 +1,4 @@
-import profilepic from "../assets/premKumarJoshiProfile.jpg";
+import profilepic from "../assets/premkumarjoshiprofile.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
