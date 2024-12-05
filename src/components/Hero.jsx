@@ -1,5 +1,6 @@
-import profilepic from "../assets/premkumarjoshiprofile.jpg";
+
 import { HERO_CONTENT } from "../constants";
+import profileImage from '../assets/premkumarjoshiprofile.jpg';
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -22,7 +23,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <motion.img
-              src={profilepic}
+              src={profileImage}
               alt="Prem Kumar Joshi"
               className="border border-stone-900 rounded-3xl"
               width={430}
